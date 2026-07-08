@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #ffffff;
+  color: #0b1220;
+  -webkit-tap-highlight-color: transparent;
+  text-rendering: geometricPrecision;
+}
+
