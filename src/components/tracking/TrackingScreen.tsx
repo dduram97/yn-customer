@@ -51,7 +51,7 @@ export function TrackingScreen({ invoiceNo }: Props) {
         <TopBar />
 
         {!isLoading ? (
-          <div className="mt-3 text-[13px] text-ink-700">
+          <div className="mt-5 text-[13px] text-ink-700">
             {tracking ? (
               <span>
                 {tracking.carrierName} · {tracking.recipientName}
@@ -62,7 +62,7 @@ export function TrackingScreen({ invoiceNo }: Props) {
           </div>
         ) : null}
 
-        <div className="mt-2">
+        <div className="mt-3">
           <TrackingCard
             isLoading={isLoading}
             tracking={tracking}
